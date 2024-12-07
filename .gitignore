@@ -1,0 +1,31 @@
+# Dependencias de Node
+node_modules/
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Directorio de producción
+dist/
+build/
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+# Configuración de entorno
+.env
+.env.local
+.env.*.local
+# Carpetas de pruebas de Jest
+coverage/
+# Archivos de configuración de TypeScript
+*.tsbuildinfo
+# Directorios temporales
+tmp/
+temp/
+# Archivos de bloqueo de paquetes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Archivos de configuración de editores de código
+.idea/
+.vscode/
